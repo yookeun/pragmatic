@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 
-# Env Start -------------------------------------------------------
+# ---- Env Start -------------------------------------------------------
 import environ
 import os
 
@@ -34,7 +34,7 @@ DEBUG = env('DEBUG')
 # exception if SECRET_KEY not in os.environ
 SECRET_KEY = env('SECRET_KEY')
 
-# Env End -------------------------------------------------------
+# ---- Env End -------------------------------------------------------
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
